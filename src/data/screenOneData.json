@@ -1,0 +1,30 @@
+{
+  "left": {
+    "inputs": [
+      { "placeholder": "Input 1" },
+      { "placeholder": "Input 2" },
+      { "placeholder": "Input 3" },
+      { "placeholder": "Input 4" }
+    ],
+    "dropdowns": [
+      { "options": ["Option A", "Option B", "Option C"] },
+      { "options": ["Option 1", "Option 2", "Option 3"] }
+    ]
+  },
+  "right": {
+    "sections": [
+      {
+        "type": "dropdown",
+        "options": ["Option X", "Option Y", "Option Z"]
+      },
+      {
+        "type": "cards",
+        "cards": ["Active Allocation 1", "Active Allocation 2"]
+      },
+      {
+        "type": "cards",
+        "cards": ["Delete Allocation 1", "Delete Allocation 2"]
+      }
+    ]
+  }
+}

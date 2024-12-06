@@ -1,0 +1,85 @@
+{
+  "screenOne": {
+    "tiles": [
+      { "id": 1, "title": "Tile 1" },
+      { "id": 2, "title": "Tile 2" },
+      { "id": 3, "title": "Tile 3" }
+    ],
+    "left": {
+      "inputs": [
+        { "placeholder": "Input 1" },
+        { "placeholder": "Input 2" },
+        { "placeholder": "Input 3" },
+        { "placeholder": "Input 4" }
+      ],
+      "dropdowns": [
+        { "options": ["Option A", "Option B", "Option C"] },
+        { "options": ["Option 1", "Option 2", "Option 3"] }
+      ]
+    },
+    "right": {
+      "sections": [
+        {
+          "type": "dropdown",
+          "options": ["Option X", "Option Y", "Option Z"]
+        },
+        {
+          "type": "cards",
+          "cards": ["Active Allocation 1", "Active Allocation 2"]
+        },
+        {
+          "type": "cards",
+          "cards": ["Delete Allocation 1", "Delete Allocation 2"]
+        }
+      ]
+    }
+  },
+  "screenTwo": {
+    "header": "Screen Two Header",
+    "buttons": ["BACK", "DELETE ALLOCATION", "APPROVE"],
+    "left": {
+      "search": { "placeholder": "Search..." },
+      "dropdowns": [
+        { "options": ["Option 1", "Option 2", "Option 3"] },
+        { "options": ["Option A", "Option B", "Option C"] }
+      ],
+      "flexbox": [
+        { "label": "Label 1", "value": "Value 1" },
+        { "label": "Label 2", "value": "Value 2" },
+        { "label": "Label 3", "value": "Value 3" },
+        { "label": "Label 4", "value": "Value 4" },
+        { "label": "Label 5", "value": "Value 5" },
+        { "label": "Label 6", "value": "Value 6" }
+      ],
+      "radioOptions": [
+        { "label": "Option 1" },
+        { "label": "Option 2" },
+        { "label": "Option 3" },
+        { "label": "Option 4" }
+      ]
+    },
+    "right": {
+      "status": "Status: Active",
+      "labels": ["RDC955", "Truck 1", "10 Stores"],
+      "table": {
+        "columns": ["Ship Date", "Arrival Date", "Final Qty", "Total Cost"],
+        "rows": [
+          {
+            "data": ["2024-12-01", "2024-12-02", "100", "$1000"],
+            "details": [
+              ["Item 1", "10", "$100", "20", "30"],
+              ["Item 2", "20", "$200", "30", "40"]
+            ]
+          },
+          {
+            "data": ["2024-12-03", "2024-12-04", "200", "$2000"],
+            "details": [
+              ["Item 3", "30", "$300", "40", "50"],
+              ["Item 4", "40", "$400", "50", "60"]
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
