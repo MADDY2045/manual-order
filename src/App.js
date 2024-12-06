@@ -1,8 +1,8 @@
 // src/App.js
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ScreenOne from './screens/ScreenOne';
 import ScreenTwo from './screens/ScreenTwo';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './styles.css';
 
 function App() {
